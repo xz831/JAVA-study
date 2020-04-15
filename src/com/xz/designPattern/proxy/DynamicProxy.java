@@ -17,6 +17,7 @@ public class DynamicProxy {
             System.out.println("前处理");
             Object invoke = m.invoke(t, a);
             System.out.println("后处理");
+            System.out.println("git提交");
             return invoke;
         });
         movable.move();
