@@ -1,7 +1,6 @@
 package com.xz.designPattern.proxy;
 
 import java.lang.reflect.Proxy;
-import java.util.Random;
 
 /**
  * @Package: com.xz.designPattern.proxy
